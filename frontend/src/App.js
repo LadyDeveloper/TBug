@@ -1,13 +1,23 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Timer tracker</h1>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Container>
+        <Main />
+        <About />
+        <Contact />
+      </Container>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;

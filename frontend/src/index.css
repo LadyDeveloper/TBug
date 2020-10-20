@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Maven Pro', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  color: purple;
+  font-family: 'Fira Code', monospace ;
+}
+
+.card-title{
+  color: purple;
+  font-family: 'Fira Code', monospace ;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.main-left p{
+  margin: 5rem 0;
+}
+
+.card{
+  border: none;
+}
+
+.card-title{
+ text-align: center;
+}
+
+.card-container{
+  height: 100vh;
+} 
+.card-container p{
+  margin: 5rem 0;
+}
+
+.contact{
+height: 100vh;
+}
+
+.contact h1{
+  margin-bottom: 2rem;
+}
+
+.contact-button{
+  margin-top: 2rem;
+}
+
+footer{
+  text-align: center;
+  padding: 1rem;
+  background-color: purple;
+  color: white;
+}
+
+#navbar-brand{
+  background-color: purple;
+  color: white;
+  border-radius: 25%;
+  padding: 0.5rem;
 }
